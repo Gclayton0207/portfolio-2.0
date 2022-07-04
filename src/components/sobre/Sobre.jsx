@@ -3,9 +3,9 @@ import './sobre.css'
 
 const Sobre = () => {
   return (
-    <div>
+    <section id='sobre'>
       sobre
-    </div>
+    </section>
   )
 }
 

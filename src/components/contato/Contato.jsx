@@ -3,9 +3,9 @@ import './contato.css'
 
 const Contato = () => {
   return (
-    <div>
-      
-    </div>
+    <section id='contato'>
+      contato
+    </section>
   )
 }
 
