@@ -8,7 +8,7 @@ import {MdHomeRepairService} from 'react-icons/md'
 const Nav = () => {
   return (
     <nav>
-      <a href="#"><AiOutlineHome /></a>
+      <a href="#" className="active"><AiOutlineHome /></a>
       <a href="#sobre"><AiOutlineUser /></a>
       <a href="#experiencia"><BiBook /></a>
       <a href="#servicos"><MdHomeRepairService /></a>
