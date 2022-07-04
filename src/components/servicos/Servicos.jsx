@@ -6,3 +6,4 @@ export const Servicos = () => {
     <div>Servicos</div>
   )
 }
+export default Servicos
