@@ -1,0 +1,106 @@
+.sobre__container {
+  display: grid;
+  grid-template-columns: 35% 45%;
+  gap: 10%;
+}
+
+.sobre__mim {
+  width: 80%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+
+.sobre__mim-imagem {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.sobre__mim-imagem:hover {
+  transform: rotate(0deg);
+}
+
+.sobre__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.sobre__card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.sobre__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  transition: var(--transition);
+  cursor: default;
+}
+
+.sobre__icone {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.sobre__card h5 {
+  font-size: 1rem;
+}
+
+.sobre__card small {
+  font: size 0.8rem;
+  color: var(--color-light);
+}
+
+.sobre__conteudo p {
+  margin: 2rem 0 2.6rem;
+  
+}
+
+/*=====================================RESPONSIVIDADE TABLET=======================*/
+
+@media screen and (max-width: 1024px) {
+  .sobre__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .sobre__mim {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .sobre__conteudo p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/*=====================================RESPONSIVIDADE CELULAR=======================*/
+
+@media screen and (max-width: 600px) {
+  .sobre__mim {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+  .sobre__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .sobre__conteudo{
+    text-align: center;
+  }
+  .sobre__conteudo p {
+    margin: 1rem 0.5rem 1.5rem;
+  }
+}
