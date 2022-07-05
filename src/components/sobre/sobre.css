@@ -64,6 +64,9 @@
   font: size 0.8rem;
   color: var(--color-light);
 }
+.sobre__conteudo{
+    text-align: justify;
+  }
 
 .sobre__conteudo p {
   margin: 2rem 0 2.6rem;
