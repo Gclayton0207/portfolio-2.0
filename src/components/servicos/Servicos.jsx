@@ -37,6 +37,10 @@ export const Servicos = () => {
               <BiCheck className="servicos__list-icon" />
               <p>SPA e Landing pages</p>
             </li>
+            <li>
+              <BiCheck className="servicos__list-icon" />
+              <p>MVC</p>
+            </li>
           </ul>
         </article>
         <article className="servicos">
@@ -50,15 +54,11 @@ export const Servicos = () => {
             </li>
             <li>
               <BiCheck className="servicos__list-icon" />
-              <p>Express</p>
+              <p>Solid</p>
             </li>
             <li>
               <BiCheck className="servicos__list-icon" />
-              <p>Prisma</p>
-            </li>
-            <li>
-              <BiCheck className="servicos__list-icon" />
-              <p>Criação de API</p>
+              <p>Criação de API REST</p>
             </li>
             <li>
               <BiCheck className="servicos__list-icon" />
@@ -82,6 +82,10 @@ export const Servicos = () => {
             <li>
               <BiCheck className="servicos__list-icon" />
               <p>VS code</p>
+            </li>
+            <li>
+              <BiCheck className="servicos__list-icon" />
+              <p>Linux Ubuntu</p>
             </li>
             <li>
               <BiCheck className="servicos__list-icon" />

@@ -36,6 +36,13 @@ const Experiencia = () => {
             <article className="experiencia__detalhes">
               <BsPatchCheckFill className="experiencia__detalhes-icone" />
               <div>
+                <h4>SASS/SCSS</h4>
+                <small className="text-light">Básico</small>
+              </div>
+            </article>
+            <article className="experiencia__detalhes">
+              <BsPatchCheckFill className="experiencia__detalhes-icone" />
+              <div>
                 <h4>Tailwind CSS</h4>
                 <small className="text-light">Básico</small>
               </div>
@@ -58,7 +65,7 @@ const Experiencia = () => {
               <BsPatchCheckFill className="experiencia__detalhes-icone" />
               <div>
                 <h4>Jquery</h4>
-                <small className="text-light">Intermediário</small>
+                <small className="text-light">Básico</small>
               </div>
             </article>
             <article className="experiencia__detalhes">
@@ -66,6 +73,13 @@ const Experiencia = () => {
               <div>
                 <h4>ReactJS</h4>
                 <small className="text-light">Intermediário</small>
+              </div>
+            </article>
+            <article className="experiencia__detalhes">
+              <BsPatchCheckFill className="experiencia__detalhes-icone" />
+              <div>
+                <h4>VueJS</h4>
+                <small className="text-light">Básico</small>
               </div>
             </article>
           </div>
@@ -84,7 +98,7 @@ const Experiencia = () => {
             <article className="experiencia__detalhes">
               <BsPatchCheckFill className="experiencia__detalhes-icone" />
               <div>
-                <h4>API Rest</h4>
+                <h4>Express</h4>
                 <small className="text-light">Intermediário</small>
               </div>
             </article>
@@ -116,6 +130,20 @@ const Experiencia = () => {
                 <small className="text-light">Básico</small>
               </div>
             </article>
+            <article className="experiencia__detalhes">
+              <BsPatchCheckFill className="experiencia__detalhes-icone" />
+              <div>
+                <h4>Prisma</h4>
+                <small className="text-light">Básico</small>
+              </div>
+            </article>
+            <article className="experiencia__detalhes">
+              <BsPatchCheckFill className="experiencia__detalhes-icone" />
+              <div>
+                <h4>PHP</h4>
+                <small className="text-light">Básico</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* ===========================================SOFT SKILLS=================================== */}
@@ -139,14 +167,28 @@ const Experiencia = () => {
             <article className="experiencia__detalhes">
               <BsPatchCheckFill className="experiencia__detalhes-icone" />
               <div>
-                <h4>Scrum</h4>
+                <h4>Metodologias ágeis</h4>
                 <small className="text-light">Intermediário</small>
               </div>
             </article>
             <article className="experiencia__detalhes">
               <BsPatchCheckFill className="experiencia__detalhes-icone" />
               <div>
-                <h4>Kanbam</h4>
+                <h4>Scrum/Kanbam</h4>
+                <small className="text-light">Intermediário</small>
+              </div>
+            </article>
+            <article className="experiencia__detalhes">
+              <BsPatchCheckFill className="experiencia__detalhes-icone" />
+              <div>
+                <h4>Gestão de rotina</h4>
+                <small className="text-light">Intermediário</small>
+              </div>
+            </article>
+            <article className="experiencia__detalhes">
+              <BsPatchCheckFill className="experiencia__detalhes-icone" />
+              <div>
+                <h4>Gestão de conflitos</h4>
                 <small className="text-light">Intermediário</small>
               </div>
             </article>
