@@ -28,17 +28,37 @@
   font-size: 1rem;
   text-align: center;
 }
-.servicos__list{
-    padding: 2rem;
+.servicos__list {
+  padding: 2rem;
 }
 
-.servicos__list li{
-    display:flex;
-    gap:1rem;
-    margin-bottom:0.8rem ;
+.servicos__list li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
 }
-.servicos__list-icon{
-    color: var(--color-primary);
-    margin-top:2px;
+.servicos__list-icon {
+  color: var(--color-primary);
+  margin-top: 2px;
 }
 
+/*=====================================RESPONSIVIDADE TABLET=======================*/
+
+@media screen and (max-width: 1024px) {
+  .services__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .servicos {
+    height: auto;
+  }
+}
+
+/*=====================================RESPONSIVIDADE CELULAR=======================*/
+
+@media screen and (max-width: 600px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
