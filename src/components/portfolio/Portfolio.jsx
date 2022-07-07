@@ -32,8 +32,6 @@ const Portfolio = () => {
             Pagina
           </a>
         </article>
-      </div>
-      <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
@@ -59,8 +57,6 @@ const Portfolio = () => {
             Pagina
           </a>
         </article>
-      </div>
-      <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
@@ -86,8 +82,6 @@ const Portfolio = () => {
             Pagina
           </a>
         </article>
-      </div>
-      <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
@@ -113,8 +107,6 @@ const Portfolio = () => {
             Pagina
           </a>
         </article>
-      </div>
-      <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
@@ -140,8 +132,6 @@ const Portfolio = () => {
             Pagina
           </a>
         </article>
-      </div>
-      <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
@@ -168,7 +158,6 @@ const Portfolio = () => {
           </a>
         </article>
       </div>
-      
     </section>
   );
 };
