@@ -7,7 +7,7 @@ export const Servicos = () => {
     <section id="servicos">
       <h5>O que sei fazer</h5>
       <h2>Serviços</h2>
-      <div className="container services__container">
+      <div className="container servicos__container">
         <article className="servicos">
           <div className="servicos__head">
             <h3>Front-end</h3>
