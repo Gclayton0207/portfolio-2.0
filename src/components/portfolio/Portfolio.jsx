@@ -15,6 +15,7 @@ const Portfolio = () => {
             />
           </div>
           <h3>Titulo do projeto</h3>
+          <div className="portfolio__item-cta">
           <a
             href="https://github.com/"
             target="_blank"
@@ -31,6 +32,7 @@ const Portfolio = () => {
           >
             Pagina
           </a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -40,6 +42,7 @@ const Portfolio = () => {
             />
           </div>
           <h3>Titulo do projeto</h3>
+          <div className="portfolio__item-cta">
           <a
             href="https://github.com/"
             target="_blank"
@@ -56,6 +59,7 @@ const Portfolio = () => {
           >
             Pagina
           </a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -65,6 +69,7 @@ const Portfolio = () => {
             />
           </div>
           <h3>Titulo do projeto</h3>
+          <div className="portfolio__item-cta">
           <a
             href="https://github.com/"
             target="_blank"
@@ -81,6 +86,7 @@ const Portfolio = () => {
           >
             Pagina
           </a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -90,6 +96,7 @@ const Portfolio = () => {
             />
           </div>
           <h3>Titulo do projeto</h3>
+          <div className="portfolio__item-cta">
           <a
             href="https://github.com/"
             target="_blank"
@@ -106,6 +113,7 @@ const Portfolio = () => {
           >
             Pagina
           </a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -115,6 +123,7 @@ const Portfolio = () => {
             />
           </div>
           <h3>Titulo do projeto</h3>
+          <div className="portfolio__item-cta">
           <a
             href="https://github.com/"
             target="_blank"
@@ -131,6 +140,7 @@ const Portfolio = () => {
           >
             Pagina
           </a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -140,6 +150,7 @@ const Portfolio = () => {
             />
           </div>
           <h3>Titulo do projeto</h3>
+          <div className="portfolio__item-cta">
           <a
             href="https://github.com/"
             target="_blank"
@@ -156,8 +167,9 @@ const Portfolio = () => {
           >
             Pagina
           </a>
+          </div>
         </article>
-      </div>
+        </div>
     </section>
   );
 };
