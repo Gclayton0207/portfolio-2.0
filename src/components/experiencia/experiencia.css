@@ -1,7 +1,7 @@
 .experiencia__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .experiencia__container > div {
@@ -21,6 +21,7 @@
 .experiencia__container > div h3 {
   text-align: center;
   margin-bottom: 2rem;
+  font-size: 1.2rem;
   color: var(--color-primary);
 }
 
