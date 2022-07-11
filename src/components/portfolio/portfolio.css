@@ -12,8 +12,8 @@
 }
 
 .portfolio__item:hover {
-  border-color: var(--color-primary-variant);
-  background: transparent;
+  border-color: var(--color-primary);
+  background: var(--color-bg-hover);
 }
 
 .portfolio__item-image {

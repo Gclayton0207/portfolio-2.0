@@ -22,8 +22,8 @@
   transition: var(--transition);
 }
 .contato__opcao:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-primary);
+  background: var(--color-bg-hover);
 }
 
 .contato__opcao-icon {
