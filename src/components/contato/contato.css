@@ -52,3 +52,21 @@ textarea {
   resize: none;
   color: var(--color-white);
 }
+/*=====================================RESPONSIVIDADE TABLET=======================*/
+
+@media screen and (max-width: 1024px) {
+    .contato__container{
+        grid-template-columns: 1fr;
+        gap:2rem;
+    }
+  }
+  
+  /*=====================================RESPONSIVIDADE CELULAR=======================*/
+  
+  @media screen and (max-width: 600px) {
+    .contato__container{
+        width: var(--container-width-sm);
+    }
+    
+  }
+  
