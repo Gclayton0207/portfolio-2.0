@@ -12,7 +12,7 @@ const Contato = () => {
       <div className="container contato__container">
         <div className="contato__opcoes">
           <article className="contato__opcao">
-            <MdOutlineEmail />
+            <MdOutlineEmail className="contato__opcao-icon"/>
             <h4>Email</h4>
             <h5>giovanni.gcda@gmail.com</h5>
             <a
@@ -24,7 +24,7 @@ const Contato = () => {
             </a>
           </article>
           <article className="contato__opcao">
-            <BsWhatsapp />
+            <BsWhatsapp className="contato__opcao-icon" />
             <h4>WhatsApp</h4>
             <h5>+55 1198527-9146</h5>
             <a
