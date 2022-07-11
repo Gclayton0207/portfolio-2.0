@@ -29,8 +29,7 @@ const Contato = () => {
   };
   return (
     <section id="contato">
-      <h5>Entrar em contato</h5>
-      <h2> Vamos conversar!</h2>
+      <h2> Entrar em contato</h2>
 
       <div className="container contato__container">
         <div className="contato__opcoes">

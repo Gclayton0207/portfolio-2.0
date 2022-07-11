@@ -9,27 +9,6 @@ const Footer = () => {
   return (
     <footer>
       <p>Desenvolvido por Giovanni Clayton</p>
-      
-      <ul className="links">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#sobre">Sobre</a>
-        </li>
-        <li>
-          <a href="#experiencia">Experiencia</a>
-        </li>
-        <li>
-          <a href="#servicos">Serviços</a>
-        </li>
-        <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#contato">Contato</a>
-        </li>
-      </ul>
       <p>
         Todos os direitos reservados <BiCopyright />
       </p>
