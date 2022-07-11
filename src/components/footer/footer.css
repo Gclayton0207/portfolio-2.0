@@ -7,7 +7,7 @@ footer {
 
 footer a,
 footer p {
-  color: var(--color-bg);
+  color: var(--color-white);
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -26,18 +26,12 @@ footer p {
   margin-bottom: 4rem;
 }
 .footer__sociais a {
-  background: var(--color-bg);
+  background: var(--color-bg-hover);
   color: var(--color-white);
   padding: 1rem;
   border-radius: 0.7rem;
   display: flex;
   border: 1px solid transparent;
-}
-
-.footer__sociais:hover {
-  background: transparent;
-  color: var(--color-bg);
-  border-color: var(--color-bg);
 }
 
 /*=====================================RESPONSIVIDADE CELULAR=======================*/
