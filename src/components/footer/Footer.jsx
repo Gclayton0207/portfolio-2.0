@@ -8,10 +8,8 @@ import { BiCopyright } from "react-icons/bi";
 const Footer = () => {
   return (
     <footer>
-      <p>
-        Desenvolvido com amor por Giovanni Clayton - todos os direitos
-        reservados <BiCopyright />
-      </p>
+      <p>Desenvolvido por Giovanni Clayton</p>
+      
       <ul className="links">
         <li>
           <a href="#">Home</a>
@@ -32,6 +30,9 @@ const Footer = () => {
           <a href="#contato">Contato</a>
         </li>
       </ul>
+      <p>
+        Todos os direitos reservados <BiCopyright />
+      </p>
       <div className="footer__sociais">
         <a
           href="https://www.linkedin.com/in/giovanni-clayton/"
@@ -39,7 +40,6 @@ const Footer = () => {
           rel="noreferrer"
         >
           <BsLinkedin />
-          Linkedin
         </a>
         <a
           href="https://github.com/Gclayton0207"
@@ -47,9 +47,10 @@ const Footer = () => {
           rel="noreferrer"
         >
           <BsGithub />
-          Github
         </a>
+        
       </div>
+      
     </footer>
   );
 };
