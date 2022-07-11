@@ -36,6 +36,12 @@ const Contato = () => {
             </a>
           </article>
         </div>
+        <form action="">
+          <input type="text" name="nome" placeholder="Nome Completo" required />
+          <input type="email" name="email" placeholder="Seu email" required />
+          <textarea name="mensagem" placeholder="Sua mensagem" rows="7" required></textarea>
+          <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+        </form>
       </div>
     </section>
   );
