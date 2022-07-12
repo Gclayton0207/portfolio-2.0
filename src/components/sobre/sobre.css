@@ -5,7 +5,7 @@
 }
 
 .sobre__mim {
-  width: 80%;
+  width: 70%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(
@@ -16,11 +16,13 @@
   );
   display: grid;
   place-items: center;
+  margin-left: 15rem;
 }
 
 .sobre__mim-imagem {
   border-radius: 2rem;
   overflow: hidden;
+  /* margin-left: 5rem; */
   transform: rotate(10deg);
   transition: var(--transition);
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./sobre.css";
-import Eu from "../../assets/Sobre.png";
+import Eu from "../../assets/Sobre2.png";
 import { FaAward } from "react-icons/fa";
 import { FiGitCommit } from "react-icons/fi";
 import { TbWorld } from "react-icons/tb";
